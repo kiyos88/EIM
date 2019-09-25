@@ -1,0 +1,84 @@
+{
+ "autoname": "field:enterprise_name",
+ "creation": "2019-08-05 17:38:49.929352",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "enterprise_name",
+  "subcity",
+  "column_break_3",
+  "category",
+  "members_count",
+  "section_break_6",
+  "\u12e8\u121b\u1285\u1260\u1229_\u1218\u1228\u1303"
+ ],
+ "fields": [
+  {
+   "fieldname": "enterprise_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "\u1235\u121d",
+   "reqd": 1,
+   "unique": 1
+  },
+  {
+   "fieldname": "subcity",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "\u12ad\u134d\u1208 \u12a8\u1270\u121b",
+   "options": "\u12a0\u12f2\u1235 \u12a8\u1270\u121b\n\u12a0\u1243\u1242 \u1243\u120a\u1272\n\u12a0\u122b\u12f3\n\u1266\u120c\n\u1309\u1208\u120c\n\u1242\u122d\u1246\u1235\n\u12ae\u120d\u134c \u1240\u122b\u1295\u12ee\n\u120d\u12f0\u1273\n\u1295\u134b\u1235 \u1235\u120d\u12ad \u120b\u134d\u1276\n\u12e8\u12ab",
+   "reqd": 1
+  },
+  {
+   "fieldname": "category",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "\u12d8\u122d\u134d",
+   "options": "\u12ae\u1295\u1235\u1275\u122b\u12ad\u123d\u1295\n\u1308\u1338 \u121d\u12f5\u122d \u121b\u1235\u12cb\u1265",
+   "reqd": 1
+  },
+  {
+   "fieldname": "members_count",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": "\u12e8 \u12a0\u1263\u120b\u1275 \u1265\u12db\u1275",
+   "reqd": 1
+  },
+  {
+   "fieldname": "\u12e8\u121b\u1285\u1260\u1229_\u1218\u1228\u1303",
+   "fieldtype": "Table",
+   "label": "\u12e8\u121b\u1285\u1260\u1229 \u1218\u1228\u1303",
+   "options": "Enterprise Log"
+  },
+  {
+   "fieldname": "column_break_3",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_6",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "modified": "2019-08-05 20:46:46.520008",
+ "modified_by": "Administrator",
+ "module": "\u12e8\u121b\u1285\u1260\u122b\u1275 \u1218\u1228\u1303 \u1218\u1246\u1323\u1320\u122d\u12eb",
+ "name": "Enterprise",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "ASC",
+ "track_changes": 1
+}

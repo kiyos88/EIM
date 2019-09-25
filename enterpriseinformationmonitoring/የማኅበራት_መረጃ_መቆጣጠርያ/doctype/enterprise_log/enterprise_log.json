@@ -1,0 +1,79 @@
+{
+ "autoname": "ENTLOG.######",
+ "creation": "2019-08-05 20:34:17.168246",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "current_work_done",
+  "start_date",
+  "end_date",
+  "memo",
+  "work_status",
+  "performance",
+  "warning"
+ ],
+ "fields": [
+  {
+   "fieldname": "current_work_done",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "\u1260 \u12a0\u1201\u1291 \u12c8\u1245\u1275 \u12eb\u120b\u1278\u12cd \u12e8\u1225\u122b \u1218\u1320\u1295"
+  },
+  {
+   "fieldname": "start_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "\u12cd\u120d \u12e8\u1270\u1230\u1320\u1260\u1275 \u1240\u1295"
+  },
+  {
+   "fieldname": "end_date",
+   "fieldtype": "Date",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "\u12cd\u120d \u12e8\u121a\u12eb\u1260\u1243\u1260\u1275 \u1240\u1295"
+  },
+  {
+   "fieldname": "memo",
+   "fieldtype": "Small Text",
+   "label": "\u12cd\u120d \u121b\u122b\u12d8\u121a\u12eb \u12a8\u1270\u12f0\u1228\u1308(memo) \u121d\u12ad\u1295\u12eb\u1275 "
+  },
+  {
+   "fieldname": "work_status",
+   "fieldtype": "Percent",
+   "label": "\u12e8\u12f0\u1228\u1230\u1265\u1275 \u12e8\u1225\u122b \u12f0\u1228\u1303"
+  },
+  {
+   "fieldname": "performance",
+   "fieldtype": "Select",
+   "in_global_search": 1,
+   "in_list_view": 1,
+   "in_preview": 1,
+   "in_standard_filter": 1,
+   "label": "\u12a0\u1348\u133b\u1338\u121d",
+   "options": "\u12a5\u1305\u130d \u1260\u1323\u121d \u1325\u1229\n\u1260\u1323\u121d \u1325\u1229\n\u1325\u1229\n\u12dd\u1245\u1270\u129b"
+  },
+  {
+   "fieldname": "warning",
+   "fieldtype": "Attach",
+   "label": "\u12e8\u1308\u1263 \u121b\u1235\u1320\u1295\u1240\u1242\u12eb/\u1235\u1228\u12db \u12ab\u1208"
+  }
+ ],
+ "istable": 1,
+ "modified": "2019-08-05 20:42:56.995446",
+ "modified_by": "Administrator",
+ "module": "\u12e8\u121b\u1285\u1260\u122b\u1275 \u1218\u1228\u1303 \u1218\u1246\u1323\u1320\u122d\u12eb",
+ "name": "Enterprise Log",
+ "owner": "Administrator",
+ "permissions": [],
+ "quick_entry": 1,
+ "sort_field": "modified",
+ "sort_order": "ASC",
+ "track_changes": 1
+}

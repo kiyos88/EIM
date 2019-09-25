@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include enterpriseinformationmonitoring *.css
+recursive-include enterpriseinformationmonitoring *.csv
+recursive-include enterpriseinformationmonitoring *.html
+recursive-include enterpriseinformationmonitoring *.ico
+recursive-include enterpriseinformationmonitoring *.js
+recursive-include enterpriseinformationmonitoring *.json
+recursive-include enterpriseinformationmonitoring *.md
+recursive-include enterpriseinformationmonitoring *.png
+recursive-include enterpriseinformationmonitoring *.py
+recursive-include enterpriseinformationmonitoring *.svg
+recursive-include enterpriseinformationmonitoring *.txt
+recursive-exclude enterpriseinformationmonitoring *.pyc
